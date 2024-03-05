@@ -16,8 +16,8 @@ const Mission = () => (
 
         <Typography className="text-left text-blue-gray-500">
           CancerDAO aims to pioneer decentralized mechanisms to fund and sustain
-          highly promising, retrospectively validated cancer research programs
-          to accelerate cancer treatment.
+          highly promising, retrospectively validated cancer research projects
+          to accelerate cancer therapeutics.
         </Typography>
       </AnimatedOnScroll>
       {/*}

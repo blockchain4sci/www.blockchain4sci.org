@@ -34,7 +34,7 @@ const Hero = () => {
             </AnimatedOnScroll>
             <AnimatedOnScroll animationIn="zoomIn">
               <Typography variant="lead" color="white" className="mt-10">
-                So, at CancerDAO, our goal is to
+                So, at CancerDAO, our goal is
               </Typography>
             </AnimatedOnScroll>
 
@@ -43,7 +43,7 @@ const Hero = () => {
                 color="white"
                 className="sm:text-6xl text-4xl mb-6 font-black"
               >
-                <span className="text-gradient"> conquery </span>
+                <span className="text-gradient"> Conquering </span>
                 cancer <span className="text-4xl font-normal">by</span> <span className="text-gradient">
                   {" "}
                   funding transformative{" "}

@@ -38,7 +38,7 @@ const Benefit = () => (
       <div className="container mx-auto flex justify-center items-center flex-wrap w-full">
         <PageTitle
           section="Community"
-          heading="CancerDAO is built upon the Community. As a member, you have the prilivilege to"
+          heading="CancerDAO is community-based. As a member, you have the following rights to"
         ></PageTitle>
         <div className="flex md:flex-row flex-col justify-center items-center">
           {benefits.map((benefit, index) => (

@@ -34,10 +34,10 @@ const CancerTrend = () => {
 
         <Typography className="text-left text-blue-gray-500">
           Current funding is insufficient to support most research ideas,
-          preventing the testing of many highly innovative ideas. In addition,
+          preventing the testing of many highly innovative ideas. Additionally,
           research suggests that bias in the allocation of funds can lead to
-          disparities in cancer mortality. Low funding rates also create other
-          problems that negatively impact researcher productivity and lead to
+          disparities in cancer mortality rates. Low funding rates create other
+          problems that negatively impact research productivity and lead to
           the so-called{" "}
           <span className=" text-blue-600 ml-1 mr-1">
             reproducibility crisis,
