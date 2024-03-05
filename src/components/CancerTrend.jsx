@@ -33,19 +33,18 @@ const CancerTrend = () => {
         </AnimatedOnScroll>
 
         <Typography className="text-left text-blue-gray-500">
-          Current funding rates are insufficient to support research projects,
+          Current funding is insufficient to support most research ideas,
           preventing the testing of many highly innovative ideas. In addition,
-          there are biases in the allocation of the current funding, which may
-          contribute to the continued rise of cancer-caused deaths worldwide. A
-          low funding rate creates other issues, negatively impacting the
-          productivity of researchers and likely contributing to
+          research suggests that bias in the allocation of funds can lead to
+          disparities in cancer mortality. Low funding rates also create other
+          problems that negatively impact researcher productivity and lead to
+          the so-called{" "}
           <span className=" text-blue-600 ml-1 mr-1">
-            reproducibility crisis
+            reproducibility crisis,
           </span>
-          ,
           <a href="https://www.sciencenews.org/article/cancer-biology-studies-research-replication-reproducibility">
             <span className="text-blue-600">
-              which studies showing that as many as 70% of cancer papers cannot
+              with studies showing that as many as 70% of cancer papers cannot
               be reproduced.
             </span>
           </a>
@@ -63,6 +62,7 @@ const CancerTrend = () => {
 
         <Carousel
           transition={{ duration: 2 }}
+          autoplay
           autoplayDelay={5000}
           loop
           className="mt-6 rounded-xl"
@@ -79,7 +79,7 @@ const CancerTrend = () => {
                   color="white"
                   className="bg-black text-center font-bold"
                 >
-                  Cancer Deaths Rise At An Accelerated Rate
+                  Cancer Deaths Are Accelerating
                 </Typography>
                 <img
                   alt="Card Image"
@@ -89,8 +89,8 @@ const CancerTrend = () => {
               </CardHeader>
               <CardBody>
                 <Typography className="font-normal text-white  pb-6">
-                  Click on the button to find the estimated cancer-caused deaths
-                  each year (data source:
+                  Click the button to see the estimated number of deaths from
+                  cancer each year (analyzed from
                   https://ourworldindata.org/causes-of-death).
                 </Typography>
 
@@ -110,9 +110,10 @@ const CancerTrend = () => {
               </CardHeader>
               <CardBody className="text-center">
                 <Typography className="font-normal text-white  pb-6 max-w-[800px]">
-                  Despie the rising numbers of cancer-caused deaths, funding
-                  Rates are delincing at major funding agencies, such as the
-                  National Cancer Institute, the world's largest funding agency for cancer
+                  Despite the increasing number of deaths caused by cancer,
+                  funding rates for cancer are declining at major funding agencies, such as
+                  the National Cancer Institute, the largest cancer funding
+                  agency in the world.
                 </Typography>
               </CardBody>
               <CardBody></CardBody>
@@ -131,8 +132,7 @@ const CancerTrend = () => {
                   color="white"
                   className="bg-black text-center font-bold"
                 >
-                  Persistent Geographic Bias in the Distribution of Centralized
-                  Cancer Funding
+                  Persistence of strong geographical bias in the allocation of centralized cancer grants
                 </Typography>
                 <img
                   alt="Card Image"
@@ -159,15 +159,14 @@ const CancerTrend = () => {
                   color="white"
                   className="bg-black text-center font-bold py-3"
                 >
-                  Persistant Geographic Bias in the Distribution of NIH Cancer
-                  Funding <br></br>
+                  Persistence of strong geographical bias in the allocation of centralized cancer grants <br></br>
                 </Typography>
                 <img
                   alt="Card Image"
                   src={nih_heatmap}
                   className="w-200 bg-black content-center mt-9"
                 />
-                <span className="text-base font-normal">
+                <span className="text-base font-normal text-black">
                   (data source: NIH reporter database)
                 </span>
               </CardHeader>
@@ -185,15 +184,14 @@ const CancerTrend = () => {
                 <Typography
                   variant="h5"
                   color="white"
-                  className="bg-black text-center font-bold"
+                  className="px-4 bg-black text-center font-bold"
                 >
-                  Low Cancer Funding May Have Contributed to The Elevated Cancer
-                  Mortality Rates In Some States
+                Inadequate Cancer Funding May Contribute to Higher Cancer Death Rates in Some U.S. States 
                 </Typography>
                 <img
                   alt="Card Image"
                   src={cancer_death_vs_funding}
-                  className="w-full bg-black py-10"
+                  className="w-full bg-black py-5"
                 />
               </CardHeader>
               <CardBody></CardBody>

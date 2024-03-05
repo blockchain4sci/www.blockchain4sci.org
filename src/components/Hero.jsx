@@ -20,21 +20,21 @@ const Hero = () => {
                 Welcome to{" "}
                 <span className="text-gradient text-2xl">CancerDAO </span>
                 <br></br>The first{" "}
-                <span className="text-gradient text-2xl">cancer-focused</span>{" "}
-                decentralized autonomous organization founded by working
+                <span className="text-gradient text-2xl">decentralized, cancer-focused</span>{" "}
+                autonomous organization founded by working
                 scientists
               </Typography>
             </AnimatedOnScroll>
 
             <AnimatedOnScroll animationIn="zoomIn">
               <Typography variant="lead" color="white" className="mt-5">
-                The deaths from cancer are rising at an accelerated speed
+                Cancer deaths are accelerating
               </Typography>
               <ShowTotayThisYear />
             </AnimatedOnScroll>
             <AnimatedOnScroll animationIn="zoomIn">
               <Typography variant="lead" color="white" className="mt-10">
-                Therefore, at CancerDAO, we aim to
+                So, at CancerDAO, our goal is to
               </Typography>
             </AnimatedOnScroll>
 
@@ -46,7 +46,7 @@ const Hero = () => {
                 <span className="text-gradient"> conquery </span>
                 cancer <span className="text-4xl font-normal">by</span> <span className="text-gradient">
                   {" "}
-                  funding transforming{" "}
+                  funding transformative{" "}
                 </span>{" "}
                 science{" "}
               </Typography>
@@ -62,7 +62,7 @@ const Hero = () => {
                   color="white"
                
                 >
-                  Join the community to make caner history
+                  Join us in making cancer history
                 </Typography>
                 <img
                   src={telegram}

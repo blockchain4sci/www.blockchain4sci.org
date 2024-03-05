@@ -47,17 +47,20 @@ const SelectField = (props) => {
         <option value="applying_for_funding" className="py-1">
           Applying for research funding
         </option>
+        <option value="review_application" className="py-1">
+          Reviewing funding applications
+        </option>
         <option value="website_sn" className="py-1">
-          Website and social network
+          Website and social network management
         </option>
         <option value="smart_contract" className="py-1">
           SMART contract development
         </option>
         <option value="outreach" className="py-1">
-          Ourreach and community expansion
+          Community expansion
         </option>
         <option value="education" className="py-1">
-          Cancer education efforts
+          Education programs
         </option>
         <option value="others"s className="py-1">
           Others

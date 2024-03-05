@@ -12,15 +12,12 @@ const Mission = () => (
   >
     <div className="container mx-auto">
       <AnimatedOnScroll animationIn="zoomIn">
-        <PageTitle
-          section="Our Mission"
-          heading=""
-        ></PageTitle>
+        <PageTitle section="Our Mission" heading=""></PageTitle>
 
         <Typography className="text-left text-blue-gray-500">
-          CancerDAO aims to pioneer decentralized mechanisms for funding and sustaining
-          highly promising, retrospectively validated cancer
-          research projects to expedite cancer treatment.
+          CancerDAO aims to pioneer decentralized mechanisms to fund and sustain
+          highly promising, retrospectively validated cancer research programs
+          to accelerate cancer treatment.
         </Typography>
       </AnimatedOnScroll>
       {/*}
