@@ -14,8 +14,8 @@ const Mission = () => (
       <AnimatedOnScroll animationIn="zoomIn">
         <PageTitle section="Our Mission" heading=""></PageTitle>
 
-        <Typography className="text-left text-blue-gray-500">
-          CancerDAO aims to pioneer decentralized mechanisms to fund and sustain
+        <Typography className="text-center text-blue-gray-500">
+          CancerDAO aims to pioneer decentralized mechanisms to fund 
           highly promising, retrospectively validated cancer research projects
           to accelerate cancer therapeutics.
         </Typography>

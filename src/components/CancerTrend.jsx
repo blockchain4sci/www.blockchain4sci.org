@@ -33,7 +33,7 @@ const CancerTrend = () => {
         </AnimatedOnScroll>
 
         <Typography className="text-left text-blue-gray-500">
-          Current funding is insufficient to support most research ideas,
+          Current funding for cancer research is insufficient to support most research ideas,
           preventing the testing of many highly innovative ideas. Additionally,
           research suggests that bias in the allocation of funds can lead to
           disparities in cancer mortality rates. Low funding rates create other
@@ -43,7 +43,7 @@ const CancerTrend = () => {
             reproducibility crisis,
           </span>
           <a href="https://www.sciencenews.org/article/cancer-biology-studies-research-replication-reproducibility">
-            <span className="text-blue-600">
+            <span className="italic">
               with studies showing that as many as 70% of cancer papers cannot
               be reproduced.
             </span>
@@ -132,7 +132,7 @@ const CancerTrend = () => {
                   color="white"
                   className="bg-black text-center font-bold"
                 >
-                  Persistence of strong geographical bias in the allocation of centralized cancer grants
+                  Persistent strong geographical bias in the allocation of centralized cancer grants
                 </Typography>
                 <img
                   alt="Card Image"
@@ -159,7 +159,7 @@ const CancerTrend = () => {
                   color="white"
                   className="bg-black text-center font-bold py-3"
                 >
-                  Persistence of strong geographical bias in the allocation of centralized cancer grants <br></br>
+                  Persistent strong geographical bias in the allocation of centralized cancer grants <br></br>
                 </Typography>
                 <img
                   alt="Card Image"
