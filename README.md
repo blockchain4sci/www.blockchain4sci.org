@@ -2,7 +2,7 @@
 
 REACT/Material Tailwind TSS code for the website of CancerDAO (https://www.blockchain4sci.org/), a decentralized autonomous organization focused on funding cancer research and promoting open science.
 ## To build the app, run:
-###yarn
-###yarn dev
-###yarn build
+### yarn
+### yarn dev
+### yarn build
 
